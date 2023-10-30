@@ -2,10 +2,7 @@ key: value
 name: hashtable
 alias: map
 list: [1, 2, 3]
-json_map: {"key": "value" 
-            "key2": "value2"
-            "key3": "value3"
-            }
+json_map: {"key": "value", "key2": "value2", "key3": "value3"}
 json_list: ["value", "value2", "value3"]
 boolean: true
 also_true: yes
