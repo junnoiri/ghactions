@@ -1,5 +1,5 @@
 name: github action tutorial
-run-name: ${(github.actor)} is running ${github.workflow} for ${github.repository}
+run-name: ${{ github.actor }} is running ${{ github.workflow }} for ${{ github.repository }}
 on: [push]
 jobs:
   check-bats-version:
